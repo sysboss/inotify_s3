@@ -3,8 +3,8 @@
 # Push2 S3
 # Copyright (c) 2013-2014 Alexey Baikov <sysboss@mail.ru>
 #
-# Watch specified directory for changes and copy newly created
-# or changed files to Amazon s3 cloud.
+# Watches specified directory for changes and copy newly created
+# or modified files to Amazon S3 Cloud.
 
 WATCH_DIR='/root/getme'
 PID_FILE='IamRunning.pid'
