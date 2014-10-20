@@ -1,14 +1,14 @@
 #!/bin/bash
 #
 # Push2 S3
-# Copyright (c) 2013-2014 Alexey Baikov <sysboss@mail.ru>
+# Copyright (c) 2013-2014 Alexey Baikov <sysboss [at] mail.ru>
 #
 # Watches specified directory for changes and copy newly created
 # or modified files to Amazon S3 Cloud.
 
-WATCH_DIR='/root/getme'
-PID_FILE='IamRunning.pid'
-BUCKET='lexa-kaka'
+WATCH_DIR='/some/dir'
+PID_FILE='/var/run/push2s3.pid'
+BUCKET='amazon_bucket_name'
 len=${#WATCH_DIR}
 
 # verify inotify installed
