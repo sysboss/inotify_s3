@@ -16,5 +16,5 @@ BUCKET='amazon_bucket_name'
 ```
   
 ## Amazon Comand Line Interface ##
-```sudo apt-get install -y python-pip
-sudo pip install awscli```
+ sudo apt-get install -y python-pip  
+ sudo pip install awscli
