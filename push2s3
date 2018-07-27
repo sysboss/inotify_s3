@@ -27,7 +27,7 @@ function upload() {
     local file=$2
     local target=${path:$len}
 
-    aws s3 cp --recursive $path s3://$BUCKET$target
+    aws s3 cp $path$file s3://$BUCKET$target$file
 }
 function delete() {
     local path=$1
